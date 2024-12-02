@@ -1,0 +1,19 @@
+/* Optional: Adjust the heading for Signup */
+.form-container h2 {
+    color: #f5f5f5; /* Same color as the Login page heading */
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Customize the Signup button */
+  .form-container button {
+    background-color: #4caf50; /* Green for the Sign Up button */
+  }
+  
+  .form-container button:hover {
+    background-color: #66bb6a; /* Lighter green on hover */
+  }
+
+input{
+    color: #f5f5f5; 
+}
+  

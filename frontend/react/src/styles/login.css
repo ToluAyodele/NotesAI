@@ -1,0 +1,61 @@
+/* Centering the main container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #1e1e1e; /* Soft dark background */
+    color: #dcdcdc; /* Light gray text */
+}
+
+/* Styling the form container */
+.form-container {
+    background-color: #2b2b2b; /* Slightly lighter dark for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6); /* Deeper shadow for a darker theme */
+    width: 300px; /* Shrunk width */
+    text-align: center;
+}
+
+/* Styling form inputs */
+.form-container input {
+    width: 100%; /* Full width of the container */
+    padding: 10px;
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #444; /* Subtle border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #3c3c3c; /* Dark gray input background */
+    color: #dcdcdc; /* Light gray text for inputs */
+    font-size: 14px;
+}
+
+.form-container input::placeholder {
+    color: #aaaaaa; /* Slightly lighter gray for placeholders */
+}
+
+/* Styling the login button */
+.form-container button {
+    width: 100%; /* Full width */
+    padding: 10px;
+    background-color: #5a5a5a; /* Medium gray for the button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.form-container button:hover {
+    background-color: #767676; /* Slightly lighter gray on hover */
+}
+
+/* Styling the heading */
+h2 {
+    margin-bottom: 20px;
+    color: #f5f5f5; /* Bright gray for headings */
+}
+
